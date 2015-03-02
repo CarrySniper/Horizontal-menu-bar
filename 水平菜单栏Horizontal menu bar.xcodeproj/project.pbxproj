@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52FA28C1AA3F26D00217E46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FA28B1AA3F26D00217E46 /* ViewController.m */; };
+		C52FA28F1AA3F47D00217E46 /* HorizontalMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FA28E1AA3F47D00217E46 /* HorizontalMenuView.m */; };
 		C55A4DE81AA3F1BF00234EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A4DE71AA3F1BF00234EF9 /* Foundation.framework */; };
 		C55A4DEA1AA3F1BF00234EF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A4DE91AA3F1BF00234EF9 /* CoreGraphics.framework */; };
 		C55A4DEC1AA3F1BF00234EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A4DEB1AA3F1BF00234EF9 /* UIKit.framework */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52FA28A1AA3F26D00217E46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		C52FA28B1AA3F26D00217E46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C52FA28D1AA3F47D00217E46 /* HorizontalMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalMenuView.h; sourceTree = "<group>"; };
+		C52FA28E1AA3F47D00217E46 /* HorizontalMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalMenuView.m; sourceTree = "<group>"; };
 		C55A4DE41AA3F1BF00234EF9 /* 水平菜单栏Horizontal menu bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水平菜单栏Horizontal menu bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55A4DE71AA3F1BF00234EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C55A4DE91AA3F1BF00234EF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +83,8 @@
 		C55A4DDB1AA3F1BF00234EF9 = {
 			isa = PBXGroup;
 			children = (
+				C52FA28D1AA3F47D00217E46 /* HorizontalMenuView.h */,
+				C52FA28E1AA3F47D00217E46 /* HorizontalMenuView.m */,
 				C55A4DED1AA3F1BF00234EF9 /* 水平菜单栏Horizontal menu bar */,
 				C55A4E061AA3F1C000234EF9 /* 水平菜单栏Horizontal menu barTests */,
 				C55A4DE61AA3F1BF00234EF9 /* Frameworks */,
@@ -107,6 +115,8 @@
 		C55A4DED1AA3F1BF00234EF9 /* 水平菜单栏Horizontal menu bar */ = {
 			isa = PBXGroup;
 			children = (
+				C52FA28A1AA3F26D00217E46 /* ViewController.h */,
+				C52FA28B1AA3F26D00217E46 /* ViewController.m */,
 				C55A4DF61AA3F1BF00234EF9 /* AppDelegate.h */,
 				C55A4DF71AA3F1BF00234EF9 /* AppDelegate.m */,
 				C55A4DF91AA3F1BF00234EF9 /* Images.xcassets */,
@@ -239,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52FA28C1AA3F26D00217E46 /* ViewController.m in Sources */,
+				C52FA28F1AA3F47D00217E46 /* HorizontalMenuView.m in Sources */,
 				C55A4DF81AA3F1BF00234EF9 /* AppDelegate.m in Sources */,
 				C55A4DF41AA3F1BF00234EF9 /* main.m in Sources */,
 			);
@@ -437,6 +449,7 @@
 				C55A4E121AA3F1C000234EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C55A4E131AA3F1C000234EF9 /* Build configuration list for PBXNativeTarget "水平菜单栏Horizontal menu barTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				C55A4E151AA3F1C000234EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
